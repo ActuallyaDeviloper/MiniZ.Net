@@ -1,0 +1,8 @@
+Build
+/TempFiles___
+bin
+obj
+*.user
+*.suo
+.vs
+*.nupkg

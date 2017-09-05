@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>MiniZ.Net</id>
+    <version>1.0.0</version>
+    <authors>ActuallyaDeviloper</authors>
+    <owners>ActuallyaDeviloper</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>http://www.boost.org/LICENSE_1_0.txt</licenseUrl>
+    <description>
+      Minimal and fast zLib compatible library to compress or decompress zlib compressed data streams.
+    </description>
+    <copyright>Copyright 2017</copyright>
+    <tags>zLib, MiniZ, compression, decompression, fast, simple</tags>
+    <language>en-US</language>
+  </metadata>
+  <files>
+    <file src="Build\Release\MiniZ.Net.dll" target="lib\" />
+    <file src="Build\Release\MiniZ32.dll" target="build\" />
+    <file src="Build\Release\MiniZ64.dll" target="build\" />
+    <file src="MiniZ.Net.targets" target="build\" /> <!-- https://stackoverflow.com/questions/19478775/add-native-files-from-nuget-package-to-project-output-directory-->
+  </files>
+</package>
